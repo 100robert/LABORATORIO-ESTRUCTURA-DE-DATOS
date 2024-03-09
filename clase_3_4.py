@@ -99,10 +99,10 @@ print(matriz_compleja)  # Imprime la matriz de números complejos
 
 # Crea una matriz de matrices con números enteros
 matriz_de_matrices = np.array([
-    [[1, 2], [31, 45], [1, 24], [14, 235]],  # Primera matriz con números enteros
-    [[52, 6], [27, 8], [12, 22], [31, 42]],  # Segunda matriz con números enteros
-    [[15, 22], [32, 42], [52, 6], [21, 2]],  # Tercera matriz con números enteros
-    [[14, 2], [73, 4], [71, 22], [81, 62]],  # Cuarta matriz con números enteros
+    [[1, 2], [31, 45], [1, 24], [14, 235]], 
+    [[52, 6], [27, 8], [12, 22], [31, 42]],  
+    [[15, 22], [32, 42], [52, 6], [21, 2]],
+    [[14, 2], [73, 4], [71, 22], [81, 62]],
 ])
 print(matriz_de_matrices)  # Imprime la matriz de matrices creada
 
@@ -244,7 +244,6 @@ def matriz_covarianza(matriz):
     covarianza = np.cov(matriz, rowvar=False)
     return covarianza
 
-# Definición de la matriz de ejemplo
 matriz = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 
 # Imprime la matriz de covarianza calculada
